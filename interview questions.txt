@@ -1,0 +1,34 @@
+1.const obj1={temp:"a"}
+
+Const Obj2={temp2:"b"}
+
+Const Obj3=Object.assign{Obj1,Obj2}
+
+Obej3.temp3="c"
+
+Console.log(Obj1,Obj2,Obj3)
+
+2.React.createElement(type,[...props],[...content])
+
+3.d/b Object.assign and Object.create
+
+4.life cycle methods in class component
+
+5.what is prototype
+
+6.what is debouncing
+
+7.d/b pureComponent and React.memo
+
+8.what is cors
+
+9.what is Babel
+
+10.what is thunk middleware
+
+11.what is Hoc
+
+12.box-sizing:border-box
+
+13. Let [a,b,...temp]=[10,20,30,40,50]
+Console.log(...temp)

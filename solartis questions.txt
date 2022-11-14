@@ -1,0 +1,226 @@
+Solartis interview questions
+
+1) what is prototype? one example
+2)difference between arrow function and normal function?
+3) what is call apply and bind?
+4) what is spread and rest operator and practical
+5) what is grid and media queries?
+6)what is box sizing and its values?
+7) what is local storage and session storage?
+8) what is doctype in html and why we use it?
+9)what is middleware?
+10) what is HOC?
+11) what is box model?
+12)what is pure function?
+13) coding practical to move all zeros to end in the array?
+14) coding practical to create object and get value 15
+     calcs.add(10).add(10).sub(5)
+15)what is hooks and useref,usecallback?
+
+
+Solartis Interview qns:
+
+1. Introduction
+2. Long term aspirations
+3. What other technologies do you know apart from front end? 
+4. Presently, you are front-end. Do you want to work in any other technologies?
+5. You have experience around 2 years. When did you start working in project? How good are you in doing project?
+
+HTML & CSS
+1. Name some HTML-5 tags that you recently used
+2. What is metatag?
+3. In metatag, there is name="port". What is the relationship between "port" & browser?
+4. Which styling type would prefer for HTML?, and why?
+
+JavaScript
+1. Difference b/w traditional javascript functions and arrow functions?
+2. Why arrow functions?
+3. Explain spread operator with example?
+4. Apart from the above explanation that you gave, where do you use these "..." (3 dots)?
+
+React-JS
+1. How do you convert jsx into JavaScript?
+2. What is higher order component, HOC, and its application?
+
+Coding
+1. Reversing a string without any inbuilt methods?
+2. console.log(1+"2"+"2") console.log("A"-"B"+"2") console.log("A"-"B"+2) console.log(1+ +"2"+"2")
+   console.log(1-"2"+"2") console.log(+1+"2"+2)
+3. (function(){
+	var a=b=3
+   })()
+
+   console.log("Is a undefined?"+(typeof a !=="undefined"))	 
+   console.log("Is b undefined?"+(typeof b !=="undefined"))	
+4. Covert given series 3,0,1,2,3,4,0,5,0,0,6,4,0,8,6,0 to 3,1,2,3,4,5,6,4,8,6,0,0,0,0,0,0 without any inbuilt methods (desirable)?
+
+1) Introduction
+2) Any defficult situation faced in your project
+3) What is Html Type
+4) what is docType what is the uses if we don't write docType what will happen
+5) what is mata tag
+6) what is Tag Type
+7) advantage of using arrow function except code simplification
+8) advantage of class component and have you ever used class component in your project
+9) tell me about new ES6 features
+10) tell me about lifecyle methods in class Component
+11) what is props types
+12) what is higher order component have you used in your project
+13) have you used Redux in your project 
+14) what tool or library you have used for validation in your project
+15) example of spread operater and rest operater
+16) what was your role in the project 
+17) what will be the output of the below code
+
+ (function(){
+        var a=b=3
+       })()
+    
+       console.log("Is a undefined?"+(typeof a !=="undefined"))	 
+       console.log("Is b undefined?"+(typeof b !=="undefined"))	
+
+18) String Reverse 
+19) arr=[5,7,5,6,2,5,5,4,5,1,9,5] convert it into [7,6,2,4,1,9,5,5,5,5,5,5]
+20) write a program to handle the event inline using arrow function
+       
+
+
+1.self introduction
+2.what are the challenges that u face din your project and how did u overcome that
+3. What was your roles and responsibilities in the the project
+4.metatag
+5.doctype
+6.html 5tags that you have used
+7.
+ (function(){
+        var a=b=c=3
+       })()
+    
+       console.log("Is a undefined?"+(typeof a !=="undefined"))	 
+       console.log("Is b undefined?"+(typeof b !==“undefined”))
+
+8.console.log(1+  +"2"+"2") 
+	console.log("A"-"B"+"2") 
+	console.log("A"-"B"+2) 
+	console.log(+"1"+"2"+"2")	
+	console.log(5-“2"+"2")
+	console.log(5-"2"+2)	
+
+9.difference between classs and functional components
+10.Life cycle methods 
+11.write a program for spread and rest operators
+12.useref and have you used that 
+13.advantage of using arrow function over other functional methods
+14.Redux
+15.program to handle an event using inline arrow function
+16.z-index
+17. Es6 features.. difference between val, let ,const
+
+
+1. Describe about yourself?
+2. Your roles and responsibilities as a software engg?
+3. Explain Reusable component ?
+4. How to optimize the performance of an application?
+5. Explain the flow / working of Redux ? have you used it in your project ?
+6. what is doctype ? what doctype tells to the browser ?
+7. Reverse a string by not using in-built functionality?
+8. What are the ES6 features ?
+9. Advantages of using arrow functions ?
+10. Have you used Local Storage & Session Storage in your project ? explain its uses ?
+11. Explain the crud operations by using axios ?
+12. By using online compiler sort all the 1's to the extreme right end of these elements 0,1,3,1,6,1,8,1,9,0,1,5,2,6 ?
+13. Give an example of spread operator & rest operator ?
+14. Predict the output of this code 
+    (function(){
+	var a=b=c=3
+   })()
+
+   console.log("Is a undefined?"+(typeof a !=="undefined"))	 
+   console.log("Is b undefined?"+(typeof b !=="undefined"))
+
+
+
+1) Introduction
+2) Any defficult situation faced in your project
+3) What is Html Type
+4) what is docType what is the uses if we don't write docType what will happen
+5) what is mata tag
+6) what is Tag Type
+7) advantage of using arrow function except code simplification
+8) advantage of class component and have you ever used class component in your project
+9) tell me about new ES6 features
+10) tell me about lifecyle methods in class Component
+11) what is props types
+12) what is higher order component have you used in your project
+13) have you used Redux in your project 
+14) what tool or library you have used for validation in your project
+15) example of spread operater and rest operater
+16) what was your role in the project 
+17) what will be the output of the below code
+
+ (function(){
+        var a=b=3
+       })()
+    
+       console.log("Is a undefined?"+(typeof a !=="undefined"))	 
+       console.log("Is b undefined?"+(typeof b !=="undefined"))	
+
+18) String Reverse 
+19) arr=[5,7,5,6,2,5,5,4,5,1,9,5] convert it into [7,6,2,4,1,9,5,5,5,5,5,5]
+20) write a program to handle the event inline using arrow function
+
+
+1.introduction
+2.what are the challenges that u face din your project and how did u overcome that
+3. What was your roles and responsibilities in the the project
+4.metatag
+5.doctype
+6.html 5tags that you have used
+7.
+ (function(){
+        var a=b=c=3
+       })()
+    
+       console.log("Is a undefined?"+(typeof a !=="undefined"))	 
+       console.log("Is b undefined?"+(typeof b !==b undefinedb ))
+       console.log("Is b undefined?"+(typeof b !==b undefinedb ))
+
+8.console.log(1+  +"2"+"2") 
+	console.log("A"-"B"+"2") 
+	console.log("A"-"B"+2) 
+	console.log(+"1"+"2"+"2")	
+	console.log(5-b 2"+"2")
+	console.log(5-"2"+2)	
+
+9.difference between classs and functional components
+10.Life cycle methods 
+11.write a program for spread and rest operators
+12.useref and have you used that 
+13.advantage of using arrow function over other functional methods
+14.Redux
+15.program to handle an event using inline arrow function
+16.z-index
+17. Es6 features.. difference between var, const
+       
+ 
+
+
+
+Tell me about yourself.
+What is the biggest challenge you faced when you are doing a project and how you solved it ?
+What is meta tag and what we need to write inside the meta tag ?
+What is DOCTYPE in html file ?
+Will html work without DOCTYPE ?
+What is Box Modal?
+What is Redux ? And how did you use redux in your project ?
+What is LazyLoading and CodeSplitting ?
+nums = [1, 2,a, 3,a, 4, 1,a, 47, 1, 1, 4, 1] get all a's in an array to the last without using any in-built methods ?
+What is the advantage of using Arrow functions over normal functions ?
+Explain the scopes of var, let and const ? and How they are different from each other ? 
+What are the 3rd party library used in Project?
+What type of field validations you used in the project ?
+Reverse A String?
+Example for Rest and Spread Operator?
+Write a logic for using inline event handler in react?
+
+

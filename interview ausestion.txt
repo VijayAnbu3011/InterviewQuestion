@@ -1,0 +1,60 @@
+import React from 'react';
+import './style.css';
+import { useState } from 'react';
+
+export default function App() {
+  const [ans, setAns] = useState([
+    { item: 'Apple', addCart: 0 },
+    { item: 'Samsung', addCart: 0 },
+    { item: 'Moto', addCart: 0 },
+  ]);
+  console.log('ans', ans);
+  const [count, setCount] = useState(0);
+  const handleReduce = (idx) => {
+    if (count > 0) {
+      const item = ans[idx].addCart;
+      ans[idx].addCart = item - 1;
+      setCount(count - 1);
+    }
+  };
+  const handleClick = (idx) => {
+    console.log(ans[idx]);
+    const item = ans[idx].addCart;
+    ans[idx].addCart = item + 1;
+    // setAns({
+    //   ...ans,
+
+    // })
+    setCount(count + 1);
+  };
+  return (
+    <div>
+      <h1>Hello StackBlitz!</h1>
+      <ul>
+        {ans.map((val, idx) => {
+          return (
+            <li>
+              {val.item}{' '}
+              <button
+                onClick={() => {
+                  handleReduce(idx);
+                }}
+              >
+                -
+              </button>
+              {val.addCart}{' '}
+              <button
+                onClick={() => {
+                  handleClick(idx);
+                }}
+              >
+                +
+              </button>
+            </li>
+          );
+        })}
+      </ul>
+      <p>TotalValue={count}</p>
+    </div>
+  );
+}

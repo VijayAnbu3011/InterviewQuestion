@@ -1,0 +1,48 @@
+1.var a = 10;
+function getA() {
+  console.log(a);
+  var a = 20;
+}
+getA();
+2.Hosting
+3.Multi level Route
+4.Promise and Promise.all
+5.Call Stack
+6.CallBack Queue
+7.Event Loop
+8.Diff b/W sync and Async
+9.Es6 Feature
+10.Default Parameter
+11.Autherization And Athentication
+12.JWt Token?
+13.Difference B/w var and Let
+14.useing Reduce Solve the problem
+let a=[{empId:1,dept:'Development'},{empId:2,dept:'UX'},
+{empId:7,dept:'UX'},{empId:6,dept:'UX'},{empId:3,dept:'Testing'},
+{empId:4,dept:'Development'},
+{empId:5,dept:'Development'}]
+let b=a.reduce((acc,cuu)=>{
+    if(acc[cuu.dept]){
+        acc[cuu.dept].push(cuu)
+    }else{
+         acc[cuu.dept]=[cuu]
+    }
+    return acc
+},{})
+console.log(b)
+
+let d=[{id:1,price:200},{id:2,price:200},{id:2,price:300},
+{id:3,price:100},{id:3,price:400},{id:1,price:200},{id:1,price:300}]
+
+let e=Object.values(d.reduce((acc,cuu)=>{
+      if(!acc[cuu.id]){
+          acc[cuu.id]={
+              id:cuu.id,
+              price:cuu.price
+          }
+      }else{
+          acc[cuu.id].price +=cuu.price
+      }
+      return acc
+},{}))
+console.log(e)
