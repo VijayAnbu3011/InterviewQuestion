@@ -27,3 +27,31 @@ function queueTime(customers, registers) {
   return arr[arr.length - 1];
 }
 -----------------*****************--------------------------------
+Sum of distance
+
+function chooseBestSum(t, k, ls) {
+  let arr = [];  
+    
+  function rec(sum, ar, n) {
+        console.log(sum,"sum",ar,"AR",n,"N")
+        console.log(arr,"before")
+    if (n == 0) {
+      arr.push(sum);
+      console.log(arr,"After")
+    } else {
+      for (let i = 0; i < ar.length; i++) {
+        rec(sum+ar[i], ar.slice(i+1), n-1);
+      }
+    }
+  }
+
+  rec(0, ls, k);
+    
+  var sol = arr.sort( (a, b) => b - a).find( a => a <= t);
+  return typeof sol === 'undefined' ? null : sol;
+}
+
+let ts = [50, 55, 56,60]
+console.log(chooseBestSum(163, 3, ts))
+
+-------***********--------------
