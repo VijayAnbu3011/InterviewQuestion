@@ -116,3 +116,32 @@ function dblLinear(n) {
 }
 
 console.log(dblLinear(20))
+--------------*************************---------------------------
+function nextSmaller(n) {
+  let digits = Array.from(String(n));
+  let i = digits.length - 2;
+
+  while (i >= 0 && digits[i] <= digits[i + 1]) {
+    i--;
+  }
+
+  if (i < 0) {
+    return -1;
+  }
+
+  let j = digits.length - 1;
+  while (j > i && digits[j] >= digits[i]) {
+    j--;
+  }
+
+  [digits[i], digits[j]] = [digits[j], digits[i]];
+  digits = digits.slice(0, i + 1).concat(digits.slice(i + 1).sort((a, b) => a - b));
+
+  let result = parseInt(digits.join(''), 10);
+  if (String(result)[0] === '0') {
+    return -1;
+  } else {
+    return result;
+  }
+}
+console.log(nextSmaller(2071));
