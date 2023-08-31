@@ -1,0 +1,121 @@
+Certainly! Here are some interview questions that a fresher might encounter during a JavaScript interview:
+
+1. **What is JavaScript, and how does it differ from HTML and CSS?**
+2. **How do you include external JavaScript files in an HTML document?**
+3. **Explain the difference between `null` and `undefined` in JavaScript.**
+4. **How do you declare variables in JavaScript? What are the differences between `var`, `let`, and `const`?**
+5. **What are data types in JavaScript? Provide examples of primitive and non-primitive data types.**
+6. **How do you perform type coercion and type conversion in JavaScript?**
+7. **What is the purpose of JavaScript operators, and how would you use them to perform mathematical or logical operations?**
+8. **Explain the concept of scope in JavaScript. What is the difference between global scope and local scope?**
+9. **How do you create and use functions in JavaScript? Provide an example of a function declaration and a function expression.**
+10. **What is the difference between synchronous and asynchronous code execution in JavaScript?**
+11. **What is a callback function, and how is it used in JavaScript?**
+12. **Explain the concept of closures in JavaScript. Provide an example of a closure and its use cases.**
+13. **What are JavaScript events, and how do you handle them using event listeners?**
+14. **How would you iterate over an array in JavaScript? Provide examples of different looping mechanisms.**
+15. **What is the DOM (Document Object Model) in JavaScript, and how do you manipulate it to interact with web page elements?**
+16. **Explain the difference between `==` and `===` operators in JavaScript. When would you use each one?**
+17. **How do you handle errors and exceptions in JavaScript? Provide an example of a `try...catch` statement.**
+18. **Discuss the concept of "hoisting" in JavaScript and how it affects variable and function declarations.**
+19. **What is the purpose of the `this` keyword in JavaScript? How does its value change in different contexts?**
+20. **Explain the concept of "event delegation" in JavaScript and its benefits in improving performance.**
+
+Certainly! Here are some interview questions that an experienced person might encounter during a JavaScript interview:
+
+1. **Explain the concept of "hoisting" in JavaScript and how it affects variable and function declarations.**
+2. **What are closures in JavaScript? Provide examples of how closures can be used in real-world scenarios.**
+3. **Discuss the differences between asynchronous programming using callbacks, promises, and async/await.**
+4. **Explain the event loop in JavaScript and how it handles asynchronous code execution.**
+5. **What is the "this" keyword in JavaScript, and how does its value change in different contexts (function, object, arrow functions, etc.)?**
+6. **What is the Prototype chain in JavaScript, and how does it relate to inheritance?**
+7. **How would you optimize the performance of JavaScript code in terms of execution speed and memory usage?**
+8. **Discuss the concept of "memoization" in JavaScript and how it can be used to improve performance in recursive functions.**
+9. **Explain the concepts of "currying" and "partial application" in JavaScript. Provide examples of their practical use.**
+10. **What is the purpose of the "use strict" directive in JavaScript, and how does it affect the behavior of your code?**
+11. **Discuss the differences between the ES5 and ES6 (ECMAScript 2015) standards in JavaScript.**
+12. **How would you handle memory leaks in JavaScript applications? Provide strategies and examples.**
+13. **Explain the concept of "promisification" and how you can convert callback-based APIs into Promise-based APIs.**
+14. **What are JavaScript decorators, and how can they be used to modify or enhance functions and classes?**
+15. **Discuss the concept of "throttling" and "debouncing" in JavaScript and their applications in handling repetitive events.**
+16. **Explain the differences between "shallow copy" and "deep copy" of objects in JavaScript. Provide code examples.**
+17. **How would you implement a custom event emitter or observer pattern in JavaScript?**
+18. **Discuss the pros and cons of using JavaScript frameworks (such as Angular, React, or Vue.js) versus vanilla JavaScript.**
+19. **What are Web Workers in JavaScript, and how can they be used to perform multithreading for CPU-intensive tasks?**
+20. **Explain the concepts of "prototype-based inheritance" and "class-based inheritance" in JavaScript.**
+
+
+21.`call`, `apply`, and `bind` are three important methods in JavaScript that are used to manipulate the `this` context of a function and can also be used to pass arguments to a function. They are commonly used in various programming scenarios, especially when dealing with function invocation and context management.
+
+ **`call()` Method:**
+   The `call()` method is used to invoke a function immediately, specifying the value of `this` and passing arguments individually.
+
+   Syntax:
+   ```javascript
+   function.call(thisArg, arg1, arg2, ...);
+   ```
+
+   Example:
+   ```javascript
+   function greet(message) {
+     console.log(`${message}, ${this.name}!`);
+   }
+
+   const person = { name: 'Alice' };
+
+   greet.call(person, 'Hello');
+   ```
+
+ **`apply()` Method:**
+   The `apply()` method is similar to `call()`, but it accepts arguments as an array or array-like object.
+
+   Syntax:
+   ```javascript
+   function.apply(thisArg, [argsArray]);
+   ```
+
+   Example:
+   ```javascript
+   function sum(a, b) {
+     return a + b;
+   }
+
+   const numbers = [5, 10];
+
+   const result = sum.apply(null, numbers);
+   ```
+
+ **`bind()` Method:**
+   The `bind()` method creates a new function with a specified `this` value and partially applied arguments. The original function is not invoked immediately.
+
+   Syntax:
+   ```javascript
+   function.bind(thisArg, arg1, arg2, ...);
+   ```
+
+   Example:
+   ```javascript
+   function sayHi() {
+     console.log(`Hi, ${this.name}!`);
+   }
+
+   const person = { name: 'Bob' };
+   const greet = sayHi.bind(person);
+
+   greet();
+   ```
+
+**Key Differences:**
+
+- `call()` and `apply()` immediately invoke the function, while `bind()` returns a new function with the bound context and arguments.
+- `call()` takes individual arguments, while `apply()` takes an array or array-like object of arguments.
+- All three methods allow you to explicitly set the `this` context for a function.
+
+**Common Use Cases:**
+
+- Changing the context of a function call to a specific object.
+- Using methods from one object on another object without inheritance.
+- Function borrowing and reuse.
+- Creating functions with preset arguments for event handling.
+
+These methods are powerful tools for managing the context and arguments of function calls in JavaScript, making them essential for writing clean and modular code. Understanding how to use `call`, `apply`, and `bind` effectively can greatly enhance your ability to work with functions and objects in various programming scenarios.
