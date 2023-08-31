@@ -1,0 +1,13 @@
+1.What is Synthetic Event?
+2.What is event-handler?
+3.What is Redux?
+4.what is Props Drilling?
+5.What is Dispatch?
+6.What are different Concept in React?
+7.Where you will use Ref?
+8.What is UseEffect?
+9.let num = val?? 10, What will be the output?
+10.let num = val?10, What will be the output?
+11.let num = val|10, What will be the output?
+12.What is Palindrome string?
+13.Then mostly in Project Based Question?

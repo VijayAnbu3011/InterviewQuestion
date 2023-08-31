@@ -1,0 +1,9 @@
+1.Dependency Injection in React ?
+2.How you will handle pagination in front and back end ?
+3.what is CDN?
+4.What is JSX?
+5.What is Virtual DOM?
+6.Input:"Hello World"
+  output:"olleH dlroW"
+7.What is Route?
+8.What is NPM?

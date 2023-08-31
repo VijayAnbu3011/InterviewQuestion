@@ -1,0 +1,17 @@
+1.How you will Authenticate user From frontend to backend?
+2.what is Hydrate Error in React?
+3.What is Canvas?
+3.what Block level and inline level in html?
+5.what is life cycle method in React?
+6.what is SSR(server-side-render) and CSR(client-side-render)?
+7.what is Hydrate Error in React?
+8.What is indexing in MongoDB?
+9.what is diff SQL and NOSQL?
+10.How will you handle Coupon-code?
+11.What is JWT Token?
+12.folder Structure in NodeJS?
+13.What is Express?
+14.What are third party libaries used in Nodejs?
+15.How you have handle Payment gateway in Nodejs?
+
+

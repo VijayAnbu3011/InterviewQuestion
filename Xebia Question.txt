@@ -1,0 +1,20 @@
+1.What is Node Js?
+2.What is Callback in NodeJS?
+3.What is Event Loop in Nodejs?
+4.What is Promise?
+5.What is Autherization and Authentication?
+6.What is Async and Await?
+7.What is CallBack Hell?
+8. function asyncTask() {
+     return functionA()
+         .then((valueA) => functionB(valueA))
+         .then((valueB) => functionC(valueB))
+         .then((valueC) => functionD(valueC))
+         .catch((err) => logger.error(err))
+} write in Async and await structure?
+9.Remove duplicates from an array and return unique values in O(n) complexity.
+let Arr = [1,2,3,4,3,6,5,4]?
+10.what is UseEffect?
+11.What is Props and State?
+12.Controlled Component and UnControlled Component?
+13.In Mounting Phase UseEffect or UseState which one will run First?
